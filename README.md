@@ -1,4 +1,6 @@
-# tyeof.js
+tyeof.js
+=========
+
 Infers type from an arbitrary list of strings. Useful to build filters and other form components from user data.  
 
 Use it to determine if a list of strings/numbers is actually:
@@ -14,18 +16,22 @@ By default, null and 'empty string' are excluded from all checks.
 
 **Warning!** This library does _not_ attempt to sanitize data.
 
-## Install and usage
+## Install
 
 ```
 $ npm install stringtype.js
-   
+```
+
+## Usage
+```
 // import
 var typeofjs = require('typeof.js')
+   
 var type = typeofjs(['3', 2, 5, '-4']); // type = integer
 var type = typeofjs(['fruit', 'fruit', 'vegetable', 'fruit']); // type = enum
 ```
 
-## Developing
+## Contributing
 
 Fork and PR. 
 
