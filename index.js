@@ -22,7 +22,7 @@ const
  * If none match, it will return string.
  *
  * @param {[]} values - a list of strings to infer
- * @return {string || null}
+ * @return {string} - see above consts for all possible return values
  */
 module.exports = function(values) {
     values = values.filter(function (value, index, self) {
