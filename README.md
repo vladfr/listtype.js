@@ -31,6 +31,8 @@ var type = listtypejs(['3', 2, 5, '-4']); // type = integer
 var type = listtypejs(['fruit', 'fruit', 'vegetable', 'fruit']); // type = enum
 ```
 
+See tests in `test/` for a comprehensive list of examples.
+
 ## Contributing
 
 Fork and PR. 
