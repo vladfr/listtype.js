@@ -1,5 +1,5 @@
 {
-  "name": "typeof.js",
+  "name": "listtype.js",
   "version": "0.0.1",
   "description": "Type inference from an arbitrary list of values",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vladfr/typeof.js.git"
+    "url": "git+https://github.com/vladfr/listtype.js.git"
   },
   "keywords": [
     "javascript",
@@ -20,9 +20,9 @@
   "author": "Vlad Frățilă <vlad.fratila@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vladfr/typeof.js/issues"
+    "url": "https://github.com/vladfr/listtype.js/issues"
   },
-  "homepage": "https://github.com/vladfr/typeof.js#readme",
+  "homepage": "https://github.com/vladfr/listtype.js#readme",
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.0.2",

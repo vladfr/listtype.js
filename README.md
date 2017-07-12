@@ -1,4 +1,4 @@
-tyeof.js
+listtype.js
 =========
 
 Infers type from an arbitrary list of strings. Useful to build filters and other form components from user data. 
@@ -19,16 +19,16 @@ By default, null and 'empty string' are excluded from all checks.
 ## Install
 
 ```
-$ npm install stringtype.js
+$ npm install listtype.js
 ```
 
 ## Usage
 ```
 // import
-var typeofjs = require('typeof.js')
+var listtypejs = require('listtype.js')
    
-var type = typeofjs(['3', 2, 5, '-4']); // type = integer
-var type = typeofjs(['fruit', 'fruit', 'vegetable', 'fruit']); // type = enum
+var type = listtypejs(['3', 2, 5, '-4']); // type = integer
+var type = listtypejs(['fruit', 'fruit', 'vegetable', 'fruit']); // type = enum
 ```
 
 ## Contributing
