@@ -1,6 +1,8 @@
 listtype.js
 =========
 
+[![Build Status](https://travis-ci.org/vladfr/listtype.js.svg?branch=master)](https://travis-ci.org/vladfr/listtype.js)
+
 Infers type from an arbitrary list of strings. Useful to build filters and other form components from user data. 
 
 Use it to determine if strings/numbers from a list have a common type. Possible return values are:
